@@ -21,13 +21,13 @@ var _site_bg_border =                             true; // [true, false] - site 
 // countdown
 // --------------------------------------------------
 var _countdown =                                  true; // [true, false] - countdown enable / disable
-var _countdown_date =                             [2016, 12, 1]; // [2016, 12, 1] mean 2016[year] - 12[month] - 01[day]
+var _countdown_date =                             [2016, 08, 07]; // [2016, 12, 1] mean 2016[year] - 12[month] - 01[day]
 var _countdown_utc =                              false; // [true, false] - utc time
 
 //
 // background effect (cloud / star)
 // --------------------------------------------------
-var _site_bg_effect =                             0; // 0 = disable, 1 = cloud, 2 = constellation, 3 = parallax star star,
+var _site_bg_effect =                             3; // 0 = disable, 1 = cloud, 2 = constellation, 3 = parallax star star,
 var _side_bg_effect_parallax =                    false; // [true, false] - enable parallax effect on above effect, its force disable on mobile, and not work with outdated browser
 
 // if _bg_effect == 1 (cloud)
@@ -49,7 +49,7 @@ var _parallax_star_opacity =                      1; // [0.1 to 1] - parallax st
 //
 
 // for desktop
-var _bg_style_desktop =                           1;
+var _bg_style_desktop =                           5;
                                                     // 0 = flat color
                                                     // 1 = image
                                                     // 2 = image (mp3 audio)
@@ -65,7 +65,7 @@ var _bg_style_desktop =                           1;
                                                     // 12 = youtube video (mp3 audio)
 
 // for mobile
-var _bg_style_mobile =                            1;
+var _bg_style_mobile =                            5;
                                                     // 0 = flat color
                                                     // 1 = image
                                                     // 2 = image (mp3 audio)
