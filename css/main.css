@@ -2538,11 +2538,14 @@ span.stButton_gradient,
 }
 
 #coming-soon {
-  background-image: url("../images/coming-soon-bg.png");
+  background-image: url("../images/5483763017_bef7f79c91_b.jpg");
   background-position: center top;
   background-repeat: repeat-x;
   padding: 40px 0;
   overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
 #coming-soon .social-link {
