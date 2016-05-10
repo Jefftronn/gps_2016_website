@@ -167,7 +167,8 @@
 
 #header{
   margin-bottom: 0;
-  padding: 30px 0 60px 0;
+  padding: 10px 0 10px 0;
+  background-color: #010006;
 }
 
 #header .navbar-inverse .container{
@@ -251,7 +252,7 @@
 }
 
 #header .navbar {
-  background: #fff;
+  background: #010006;
   border: 0;
   margin-bottom: 0;
 }
@@ -275,7 +276,7 @@
 }
 
 #header .navbar-nav.navbar-right >li a {
-  color: #000;
+  color: white;
   font-size: 12px;
   padding: 20px;
   text-transform: uppercase;
@@ -289,7 +290,6 @@
 .navbar-inverse .navbar-nav > .open > a {
   background-color: inherit;
   border: 0;
-  color: #00aeef;
 }
 
 #header .navbar-inverse .navbar-nav  li a:hover{
@@ -2539,6 +2539,7 @@ span.stButton_gradient,
 
 #coming-soon {
   background-image: url("../images/5483763017_bef7f79c91_b.jpg");
+  /* can change to gif http://4.bp.blogspot.com/-c6ukFCcbdvs/UsDIinKzJcI/AAAAAAAAEcw/Qe9Blb82GWw/s1600/Hubble_Spys_Supersonic_Jets_From_Newborn_Stars___Hubblecast_49___Space_Telescope_HD_Video_hd720.gif */
   background-position: center top;
   background-repeat: repeat-x;
   padding: 40px 0;
