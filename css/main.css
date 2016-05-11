@@ -167,7 +167,7 @@
 
 #header{
   margin-bottom: 0;
-  padding: 10px 0 10px 0;
+  padding: 0px 0 0px 0;
   background-color: #010006;
 }
 
@@ -252,7 +252,7 @@
 }
 
 #header .navbar {
-  background: #010006;
+  background: rgba(0,0,0,0.4);
   border: 0;
   margin-bottom: 0;
 }
@@ -2542,11 +2542,12 @@ span.stButton_gradient,
   /* can change to gif http://4.bp.blogspot.com/-c6ukFCcbdvs/UsDIinKzJcI/AAAAAAAAEcw/Qe9Blb82GWw/s1600/Hubble_Spys_Supersonic_Jets_From_Newborn_Stars___Hubblecast_49___Space_Telescope_HD_Video_hd720.gif */
   background-position: center top;
   background-repeat: repeat-x;
-  padding: 40px 0;
+  padding: 100px 0;
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  height: 100vh;
 }
 
 #coming-soon .social-link {
