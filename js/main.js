@@ -1,4 +1,42 @@
 jQuery(function($) {'use strict';
+	
+	//scroll effect for Nav
+	$('#anchor1').click(function(){
+		$('html, body').animate({
+			scrollTop: $( $(this).attr('href') ).offset().top
+		}, 800);
+		return false;
+	});
+	$('#anchor2').click(function(){
+		$('html, body').animate({
+			scrollTop: $( $(this).attr('href') ).offset().top
+		}, 800);
+		return false;
+	});
+	$('#anchor3').click(function(){
+		$('html, body').animate({
+			scrollTop: $( $(this).attr('href') ).offset().top
+		}, 800);
+		return false;
+	});
+	$('#anchor4').click(function(){
+		$('html, body').animate({
+			scrollTop: $( $(this).attr('href') ).offset().top
+		}, 800);
+		return false;
+	});
+	$('#anchor5').click(function(){
+		$('html, body').animate({
+			scrollTop: $( $(this).attr('href') ).offset().top
+		}, 800);
+		return false;
+	});
+	$('#anchor6').click(function(){
+		$('html, body').animate({
+			scrollTop: $( $(this).attr('href') ).offset().top
+		}, 800);
+		return false;
+	});	
 
 	//Responsive Nav
 	$('li.dropdown').find('.fa-angle-down').each(function(){
