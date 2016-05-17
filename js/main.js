@@ -37,6 +37,13 @@ jQuery(function($) {'use strict';
 		}, 800);
 		return false;
 	});	
+	$('#anchor7').click(function(){
+		$('html, body').animate({
+			scrollTop: $( $(this).attr('href') ).offset().top
+		}, 800);
+		return false;
+	});	
+
 
 	//Responsive Nav
 	$('li.dropdown').find('.fa-angle-down').each(function(){

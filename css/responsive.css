@@ -84,10 +84,10 @@
   #home-slider {
     margin-top: 30px;
   }
-
+/*
   #home-slider .main-slider {
     height: 250px;
-  }
+  }*/
 
   #home-slider .slide-text {
     top: 0;
@@ -98,7 +98,7 @@
     margin-top: 0;
   }
 
-  #home-slider .slider-hill {
+  #home-slider .slider-starry-sky {
     width: 400px;
   }
 
