@@ -15,8 +15,8 @@
     background: #fff;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 26px;
     color: #000;
   }
 
@@ -25,12 +25,9 @@
   }
 
 
-  p {
-    font-size: 18px;
-  }
-  
   a{
-    color:#C03035;
+    color:#97ae00;
+    font-weight: 300;
   }
 
   a:hover {
@@ -57,17 +54,18 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
+    font-weight: 700;
   }
 
   h1{
-    color: #686868;
+    color: #a9ae00;
   }
 
   h2{
     font-size: 24px;
-    color: #686868;
+    color: #a9ae00;
   }
 
   h3{
@@ -162,6 +160,36 @@
   .carousel-indicators.visible-xs li.active {
     background: rgba(210, 153, 72, 0.7);
   }
+
+
+/*************************
+*******Ken Burns******
+**************************/
+.kenburns {
+
+  overflow: hidden;
+
+  display: inline-block;
+
+}
+
+.kenburns img {
+
+  transition-duration: 5s;
+
+  transform: scale(1.0);
+
+  transform-origin: 50% 50%;
+
+}
+
+.kenburns img:hover {
+
+  transform: scale(1.2);
+
+  transform-origin: 50% 0%; /* pan towards top of image */
+
+}
 
 
 /*************************
@@ -558,65 +586,76 @@ ul.sub-menu {
   animation: fadeInLeftBig 700ms cubic-bezier(0.190,1.000,0.220,1.000) 200ms both;
 }
 
-#home-slider .slider-hill {
+#home-slider .slider-starry-sky {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 150px;
+  bottom: 110px;
 }
 
-.animate-in .slider-hill {
-  -webkit-animation: bounceInDown 1000ms ease-in-out 200ms both;
-  animation: bounceInDown 1000ms ease-in-out 200ms both;
+.animate-in .slider-starry-sky {
+  -webkit-animation: bounceInRight 1000ms ease-in-out 200ms both;
+  animation: bounceInRight 1000ms ease-in-out 200ms both;
 }
 
-#home-slider .slider-house {
+#home-slider .slider-rocket {
   position: absolute;
-  right: 110px;
-  bottom: -30px;
+  right: 164px;
+  bottom: 119px;
 }
 
-.animate-in .slider-house {
-  -webkit-animation: bounceInDown 500ms ease-in-out 800ms both;
-  animation: bounceInDown 500ms ease-in-out 800ms both;
+.animate-in .slider-rocket {
+  -webkit-animation: bounceInLeft 500ms ease-in-out 800ms both;
+  animation: bounceInLeft 500ms ease-in-out 800ms both;
 }
 
-#home-slider .slider-sun {
+#home-slider .slider-star-middle {
   position: absolute;
-  right: 365px;
-  bottom: 100px;
+  right: 325px;
+  bottom: 350px;
 }
 
-.animate-in .slider-sun {
+.animate-in .slider-star-middle {
   -webkit-animation: scaleIn 500ms ease-in-out 1200ms both;
   animation: scaleIn 500ms ease-in-out 1200ms both;
 }
 
-#home-slider .slider-birds1 {
+#home-slider .slider-star-left {
   position: absolute;
-  right: 470px;
-  bottom: 75px;
+  right: 420px;
+  bottom: 300px;
 }
 
-.animate-in .slider-birds1 {
+.animate-in .slider-star-left {
   -webkit-animation: fadeInLeft 500ms ease-in-out 1200ms both;
   animation: fadeInLeft 500ms ease-in-out 1200ms both;
 }
 
-#home-slider .slider-birds2 {
+#home-slider .slider-star-right {
   position: absolute;
-  right: 40px;
-  bottom: 150px;
+  right: 180px;
+  bottom: 275px;
 }
 
-.animate-in .slider-birds2 {
+.animate-in .slider-star-right {
+  -webkit-animation: fadeInRight 500ms ease-in-out 1200ms both;
+  animation: fadeInRight 500ms ease-in-out 1200ms both;
+}
+
+#home-slider .slider-title {
+  position: absolute;
+  right: 260px;
+  bottom: 100px;
+}
+
+.animate-in .slider-title {
   -webkit-animation: fadeInRight 500ms ease-in-out 1200ms both;
   animation: fadeInRight 500ms ease-in-out 1200ms both;
 }
 
 
 #home-slider h1{
-  margin-top: 100px;
-  margin-bottom: 25px;
+  margin-top: 120px;
+  margin-bottom: 65px;
 }
 
 #home-slider .btn-common {
@@ -670,7 +709,7 @@ ul.sub-menu {
 }
 
 .single-service img {
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 
 .single-service .fold {
@@ -2052,19 +2091,19 @@ span.stButton_gradient,
 }
 
 .single-price.price-one .plan-name {
-  background-color: #0e76bc;
+  background-color: #b5711e;
 }
 
 .single-price.price-two .plan-name {
-  background-color: #ac2429;
+  background-color: #7f7d7c;
 }
 
 .single-price.price-three .plan-name {
-  background-color: #ed8d1b;
+  background-color: #c78e26;
 }
 
 .single-price.price-four .plan-name {
-  background-color: #6c825f;
+  background-color: #424242;
 }
 
 
@@ -2153,35 +2192,35 @@ span.stButton_gradient,
 }
 
 .price-one .btn-buynow  {
-  background-color: #0d6fb1;
+  background-color: #b5711e;
 }
 
 .price-two .btn-buynow  {
-  background-color: #ac2429;
+  background-color: #7f7d7c;
 }
 
 .price-three .btn-buynow  {
-  background-color: #e78817;
+  background-color: #c78e26;
 }
 
 .price-four .btn-buynow  {
-  background-color: #5f7452;
+  background-color: #424242;
 }
 
 .price-one .btn-buynow:hover  {
-  background-color: #0a5a90;
+  background-color: #b5711e;
 }
 
 .price-two .btn-buynow:hover  {
-  background-color: #821b1e;
+  background-color: #7f7d7c;
 }
 
 .price-three .btn-buynow:hover  {
-  background-color: #c57413;
+  background-color: #c78e26;
 }
 
 .price-four .btn-buynow:hover  {
-  background-color: #48583e;
+  background-color: #424242;
 }
 
 
@@ -2562,7 +2601,7 @@ span.stButton_gradient,
 }
 
 #coming-soon {
-  background-image: url("../images/5483763017_bef7f79c91_b.jpg");
+  background-image: url("../images/bg.jpg");
   /* can change to gif http://4.bp.blogspot.com/-c6ukFCcbdvs/UsDIinKzJcI/AAAAAAAAEcw/Qe9Blb82GWw/s1600/Hubble_Spys_Supersonic_Jets_From_Newborn_Stars___Hubblecast_49___Space_Telescope_HD_Video_hd720.gif */
   background-position: center top;
   background-repeat: repeat-x;
@@ -2572,6 +2611,24 @@ span.stButton_gradient,
   background-size: cover;
   color: white;
   height: 100vh;
+    
+  @keyframes kenburns {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 1;
+    }
+    95% {
+        transform: scale3d(1.5, 1.5, 1.5) translate3d(-190px, -120px, 0px);
+        animation-timing-function: ease-in;
+        opacity: 1;
+    }
+    100% {
+        transform: scale3d(2, 2, 2) translate3d(-170px, -100px, 0px);
+        opacity: 0;
+    }
+}
 }
 
 .social-link span {
@@ -2589,6 +2646,77 @@ span.stButton_gradient,
 
 .time-count ul {
   padding-left: 0;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 80px;
+  overflow: hidden;
+  float: none;
+}
+
+.coming-soon h1 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 55px;
+}
+.coming-soon h2 {
+  font-family: 'Oswald', sans-serif;    
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.coming-soon h3 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 2px 2px black;
+}
+.coming-soon b {
+  text-transform: uppercase;
+  color: #79bb43;
+}
+.coming-soon b2 {
+  text-transform: uppercase;
+  color: #1daeec;
+  font-family: 'Oswald', sans-serif;
+}
+.coming-soon .lime {
+  text-transform: uppercase;
+  color: #79bb43;
+}
+
+/* --COUNTDOWN-- */
+
+.count_down {
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 80px;
+  overflow: hidden;
+  float: none;
+}
+.count_down .custom {
+  border-right: 1px solid #D0D0CF;
+}
+.count_down .custom:last-child {
+  border-right: 0px solid #D0D0CF;
+}
+.time .counter {
+  color: #FFFFFF;
+  font-size: 60px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  text-align: center;
+}
+.time .title {
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  font-weight: lighter;
+  display: block;
+  text-align: center;
+  font-size: 14px;
 }
 
 #countdown {
@@ -2610,8 +2738,26 @@ span.stButton_gradient,
   position: relative;
   color: #fff;
   margin-top: 100px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
+  
 }
-
+.time .counter {
+  color: #FFFFFF;
+  font-size: 60px;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  display: block;
+  text-align: center;
+}
+.time .title {
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  font-weight: lighter;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
 #countdown li {
   text-shadow: 2px 2px black;
 }
@@ -2637,9 +2783,9 @@ span.stButton_gradient,
 }
 
 #countdown li > span {
-  font-size: 48px;
+  font-size: 60px;
   line-height: 48px;
-  font-weight: 700;
+  font-weight: 300;
   color: #fff;
   display: inline-block;
   margin-top: 40px;
@@ -2649,6 +2795,8 @@ span.stButton_gradient,
 #countdown li.angle-four > span {
   margin-top: 80px;
 }
+
+/* -- END COUNTDOWN-- */
 
 
 #subscribe {
