@@ -97,7 +97,6 @@
     right: 0;
   }
 
-
   .btn-common:hover, 
   .btn-common:focus{
     outline: none;
@@ -161,6 +160,9 @@
     background: rgba(210, 153, 72, 0.7);
   }
 
+.wow {
+  visibility: hidden;
+}
 
 /*************************
 *******Ken Burns******
@@ -590,67 +592,67 @@ ul.sub-menu {
 #home-slider .slider-starry-sky {
   position: absolute;
   right: 150px;
-  bottom: 110px;
+  top: 146px;
 }
 
 .animate-in .slider-starry-sky {
-  -webkit-animation: bounceInRight 1000ms ease-in-out 200ms both;
-  animation: bounceInRight 1000ms ease-in-out 200ms both;
+  -webkit-animation: bounceInRight 1000ms ease-in-out 3000ms both;
+  animation: bounceInRight 1000ms ease-in-out 3000ms both;
 }
 
 #home-slider .slider-rocket {
   position: absolute;
   right: 164px;
-  bottom: 119px;
+  top: 94px;
 }
 
 .animate-in .slider-rocket {
-  -webkit-animation: bounceInLeft 500ms ease-in-out 800ms both;
-  animation: bounceInLeft 500ms ease-in-out 800ms both;
+  -webkit-animation: bounceInLeft 500ms ease-in-out 3000ms both;
+  animation: bounceInLeft 500ms ease-in-out 3000ms both;
 }
 
 #home-slider .slider-star-middle {
   position: absolute;
   right: 325px;
-  bottom: 350px;
+  top: 176px;
 }
 
 .animate-in .slider-star-middle {
-  -webkit-animation: scaleIn 500ms ease-in-out 1200ms both;
-  animation: scaleIn 500ms ease-in-out 1200ms both;
+  -webkit-animation: fadeIn 500ms ease-in-out 3200ms both;
+  animation: fadeIn 500ms ease-in-out 3200ms both;
 }
 
 #home-slider .slider-star-left {
   position: absolute;
   right: 420px;
-  bottom: 300px;
+  top: 253px;
 }
 
 .animate-in .slider-star-left {
-  -webkit-animation: fadeInLeft 500ms ease-in-out 1200ms both;
-  animation: fadeInLeft 500ms ease-in-out 1200ms both;
+  -webkit-animation: fadeIn 500ms ease-in-out 3200ms both;
+  animation: fadeIn 500ms ease-in-out 3200ms both;
 }
 
 #home-slider .slider-star-right {
   position: absolute;
   right: 180px;
-  bottom: 275px;
+  top: 275px;
 }
 
 .animate-in .slider-star-right {
-  -webkit-animation: fadeInRight 500ms ease-in-out 1200ms both;
-  animation: fadeInRight 500ms ease-in-out 1200ms both;
+  -webkit-animation: fadeIn 500ms ease-in-out 3200ms both;
+  animation: fadeIn 500ms ease-in-out 3200ms both;
 }
 
 #home-slider .slider-title {
   position: absolute;
   right: 260px;
-  bottom: 100px;
+  top: 352px;
 }
 
 .animate-in .slider-title {
-  -webkit-animation: fadeInRight 500ms ease-in-out 1200ms both;
-  animation: fadeInRight 500ms ease-in-out 1200ms both;
+  -webkit-animation: bounceInDown 500ms ease-in-out 3200ms both;
+  animation: bounceInDown 500ms ease-in-out 3200ms both;
 }
 
 
@@ -846,8 +848,8 @@ ul.sub-menu {
   position: relative;
 }
 
-.person-thumb img {
-}
+/*.person-thumb img {
+}*/
 
 
 .social-profile {
@@ -2605,7 +2607,6 @@ span.stButton_gradient,
   background-image: url("../images/bg.jpg");
   /* can change to gif http://4.bp.blogspot.com/-c6ukFCcbdvs/UsDIinKzJcI/AAAAAAAAEcw/Qe9Blb82GWw/s1600/Hubble_Spys_Supersonic_Jets_From_Newborn_Stars___Hubblecast_49___Space_Telescope_HD_Video_hd720.gif */
   background-position: center top;
-  background-repeat: repeat-x;
   padding: 100px 0;
   overflow: hidden;
   background-repeat: no-repeat;

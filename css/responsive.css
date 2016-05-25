@@ -343,38 +343,38 @@
 
   #home-slider .slider-starry-sky {
       position: absolute;
-      right: 70px;
-      bottom: 110px;
+      right: 176px;
+      top: 461px;
   }
 
   #home-slider .slider-rocket {
-      position: absolute;
-      right: 85px;
-      bottom: 119px;
+    position: absolute;
+    right: 190px;
+    top: 410px;
   }
 
   #home-slider .slider-star-middle {
-      position: absolute;
-      right: 245px;
-      bottom: 350px;
+    position: absolute;
+    right: 347px;
+    top: 488px;
   }
 
   #home-slider .slider-star-left {
-      position: absolute;
-      right: 330px;
-      bottom: 300px;
+    position: absolute;
+    right: 428px;
+    top: 562px;
   }
 
   #home-slider .slider-star-right {
-      position: absolute;
-      right: 100px;
-      bottom: 275px;
+    position: absolute;
+    right: 225px;
+    top: 568px;
   }
 
   #home-slider .slider-title {
-      position: absolute;
-      right: 180px;
-      bottom: 100px;
+    position: absolute;
+    right: 232px;
+    top: 678px;
   }
 
   /*Pricing Table*/
@@ -513,7 +513,7 @@
   }
 
   .portfolio-filter li a{
-    padding: 0 15px;.coming
+    padding: 0 15px;
   }
 
   /*Coming Soon CSS*/
@@ -604,39 +604,39 @@
 @media only screen and (max-width : 480px) {
   
   #home-slider .slider-starry-sky {
-      position: absolute;
-      right: 70px;
-      bottom: 110px;
+    position: absolute;
+    right: 43px;
+    top: 545px;
   }
 
   #home-slider .slider-rocket {
-      position: absolute;
-      right: 85px;
-      bottom: 119px;
+    position: absolute;
+    right: 58px;
+    top: 496px;
   }
 
   #home-slider .slider-star-middle {
-      position: absolute;
-      right: 245px;
-      bottom: 350px;
+    position: absolute;
+    right: 205px;
+    top: 570px;
   }
 
   #home-slider .slider-star-left {
-      position: absolute;
-      right: 330px;
-      bottom: 300px;
+    position: absolute;
+    right: 298px;
+    top: 650px;
   }
 
   #home-slider .slider-star-right {
-      position: absolute;
-      right: 100px;
-      bottom: 275px;
+    position: absolute;
+    right: 84px;
+    top: 653px;
   }
 
   #home-slider .slider-title {
-      position: absolute;
-      right: 180px;
-      bottom: 100px;
+    position: absolute;
+    right: 114px;
+    top: 767px;
   }
 
   /* Pricing Table*/
@@ -746,37 +746,37 @@
   #home-slider .slider-starry-sky {
     position: absolute;
     right: 11px;
-    bottom: 59px;
+    top: 580px;
   }
 
   #home-slider .slider-rocket {
     position: absolute;
     right: 25px;
-    bottom: 70px;
+    top: 528px;
   }
 
   #home-slider .slider-star-middle {
     position: absolute;
     right: 166px;
-    bottom: 329px;
+    top: 603px;
   }
 
   #home-slider .slider-star-left {
     position: absolute;
     right: 266px;
-    bottom: 251px;
+    top: 666px;
   }
 
   #home-slider .slider-star-right {
     position: absolute;
     right: 41px;
-    bottom: 232px;
+    top: 740px;
   }
 
   #home-slider .slider-title {
     position: absolute;
     right: 55px;
-    bottom: 52px;
+    top: 782px;
   }
 }
 
@@ -823,26 +823,26 @@
   
   #home-slider .slider-starry-sky {
     position: absolute;
-    right: -14px;
-    bottom: 20px;
+    left: -2px;
+    top: 643px;
   }
 
   #home-slider .slider-rocket {
     position: absolute;
-    right: 0px;
-    bottom: 33px;
+    right: -11px;
+    top: 593px;
   }
 
   #home-slider .slider-star-middle {
     position: absolute;
-    right: 142px;
-    bottom: 300px;
+    right: 135px;
+    top: 666px;
   }
 
   #home-slider .slider-star-left {
     position: absolute;
     right: 234px;
-    bottom: 243px;
+    top: 741px;
   }
 
   #home-slider .slider-star-right {
@@ -854,7 +854,7 @@
   #home-slider .slider-title {
     position: absolute;
     right: 20px;
-    bottom: 12px;
+    top: 866px;
   }
 }
 
@@ -862,20 +862,20 @@
   
   #home-slider .slider-starry-sky {
     position: absolute;
-    right: -33px;
-    bottom: 11px;
+    left: -26px;
+    top: 652px;
   }
 
   #home-slider .slider-rocket {
     position: absolute;
-    right: -19px;
-    bottom: 24px;
+    right: -28px;
+    top: 599px;
   }
 
   #home-slider .slider-star-middle {
     position: absolute;
     right: 128px;
-    bottom: 288px;
+    top: 675px;
   }
 
   #home-slider .slider-star-left {
@@ -892,7 +892,7 @@
 
   #home-slider .slider-title {
     position: absolute;
-    right: -12px;
+    right: -19px;
     bottom: 19px;
   }
 }
