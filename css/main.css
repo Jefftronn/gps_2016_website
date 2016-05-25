@@ -2660,6 +2660,7 @@ span.stButton_gradient,
   color: #FFFFFF;
   text-align: center;
   font-size: 55px;
+  text-shadow: 2px 2px black;
 }
 .coming-soon h2 {
   font-family: 'Oswald', sans-serif;    
